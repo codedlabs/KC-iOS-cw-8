@@ -1,7 +1,7 @@
  
 # تمرين - رقم ٧
  في هذا التمرين ستظهر افلامك المفضلة على شكل قائمة 
-
+![appGif](https://user-images.githubusercontent.com/64652496/84556714-1ffc8d80-ad2d-11ea-8094-103eb1a9c18e.gif)
 
 ### خطوات 
 
@@ -11,8 +11,8 @@
 4. Xcode قم بفتح المشروع بالـ
 5. UITableVIewController و اضف  Storyboard انتقل الى الـ   
 6. is initial View Controller فعل خاصية    
-7. Navigation Controller قم بإضافة الـ
-
+7. 👇🏻 كما هو موضح Navigation Controller قم بإضافة الـ
+![navigation](https://user-images.githubusercontent.com/64652496/84556761-69e57380-ad2d-11ea-8ad6-918529d4a890.gif)
 8. Basic من نوع  Style اربط  و اجعل  cell قم  بتسمية  الـ 
 9. Segue بواجهة **تفاصيل الفلم** المودة لديك اساساً من خلال  TableViewController اربط الـ 
 10. و تذكره جيداً لأننا سنستخدمه لاحقاًSegue قم بتسمية الـ 
@@ -28,7 +28,6 @@
 
 
 ### !بونص 
-![kitty-3](https://user-images.githubusercontent.com/64652496/84556698-ecb9fe80-ad2c-11ea-8cc6-8bb12dcc8a4a.png)
 
 1. TableViewController الخاص بالـ Header أظهر شعار الفيلم في الـ 
 

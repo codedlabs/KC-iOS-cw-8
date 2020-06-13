@@ -1,6 +1,8 @@
  
 # تمرين - رقم ٧
  في هذا التمرين ستظهر افلامك المفضلة على شكل قائمة 
+
+
 ![appGif](https://user-images.githubusercontent.com/64652496/84556714-1ffc8d80-ad2d-11ea-8094-103eb1a9c18e.gif)
 
 ### خطوات 

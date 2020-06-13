@@ -1,35 +1,44 @@
  
 # تمرين - رقم ٧
  في هذا التمرين ستظهر افلامك المفضلة على شكل قائمة \
+
+
 ### خطوات 
 
 1. افتح رابط التمرين من [هنا](https://github.com/kuwaitcodes/ios-cw-7)
-2. لمجلد الواجب Fork قم بعمل
+2. لمجلد التمرين Fork قم بعمل
 3. Open in GitHub Desktop قم بفتح التمرين عن طريق 
 4. Xcode قم بفتح المشروع بالـ
-5. انتقل الى الـ Stroyboard  و اضف  UITableVIewController
-6. فعل خاصية  is initial View Controller   
-7. قم بإضافة الـ Navigation Controller كما هو موضح 
+5. UITableVIewController و اضف  Storyboard انتقل الى الـ   
+6. is initial View Controller فعل خاصية    
+7. Navigation Controller قم بإضافة الـ
 
 > داخل الدالة `for-in` والجمل الدوران `if statements`  ملاحظة: يجب استخدام الجمل الشرطية 
-8. قم  بتسمية  الـ cell ،  و اجعل  الـ Style  من  نوع  Basic
-9. اربط   الـ  UITableViewController   بواجهة    (تفاصيل الفلم )  الموجودة  لديك أساسا من خلال  Segue  
-10.  لكل عضو emojis سلسلة  Return  و الناتج  `membernamearray` أن تأخد اسماء الأعضاء من مصفوفة  `secretnametoEmoji` يجب على دالة 
-> داخل الدالة `for-in` والجمل الدوران `if statements`  ملاحظة: يجب استخدام الجمل الشرطية 
+8. Basic من نوع  Style اربط  و اجعل  cell قم  بتسمية  الـ 
+9. Segue بواجهة **تفاصيل الفلم** المودة لديك اساساً من خلال  TableViewController اربط الـ 
+10. و تذكره جيداً لأننا سنستخدمه لاحقاًSegue قم بتسمية الـ 
+11.  بكوائن من  أفلامك المفضلة MovieDataModel املأ  المصففة  الموجودة  في ملف 
+> Assest ملاحظة : انقل الصور الخاصة بأفلامك إلى الـ  
+> ملاحظة : في حال لم تجهز معلومات عن أفلامك المفضلة ، يمكنك استخدام النموذج المزود في المشروع  
 
-11. ` var functioncall =` بداخل `membernamearray` قم بإستدعاء
+12. Storyboard و اربطه بالـ **MasterView** باسم  **UITableViewCotroller** من نوع  ViewContorrler اضف  متحكم الواجهة 
+13. وتأكد أن  الدالة  ترجع  قيمة  1١) و ذلك  ليكون لدينا  سكشن  واحد **numberOfSections** انتقل للدالة 
+14. و اجعل الدالة ترجع عدد الأفلام الموجودة في مصفوفة الأفلام التي أنشأتها سابقاً numberOfRowInSection انتقل لدالة التي لديها 
+15. لتظهر  اسم الفلم فقط cell و   قم  بتهيئة  الـcellForRowAt انتقل للدالة التي  لديها
+16.  اجعلها  تنقل  التطبيق  الى الواجهة  اللاحقة لتظهر تفاصيل الفلم و  ، didSelectRowAt ابحث عن  دالة لديها 
 
 
 ### !بونص 
-1.  dictionary استخدام الفهرس emojisبدال  مصفوفة الحروف و مصفوفة الـ 
 
-2. استخدام داله وحده و استخدام متغير نوع bool لمعرفه
 
-### [اضغط هنا](https://app.code.kw/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D9%8A%D9%81%D9%88%D9%86-%D9%85%D8%B9-%D8%B3%D9%88%D9%8A%D9%81%D8%AA-Swift-KFAS/%D8%A7%D9%84%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A7%D8%AA-%D9%88-%D8%A7%D9%84%D8%AA%D8%AD%D9%83%D9%85-%D9%88-%D8%A7%D9%84%D8%AF%D9%88%D8%A7%D9%84-collections-control-functions-KFAS) للدرس
+
+1. TableViewController الخاص بالـ Header أظهر شعار الفيلم في الـ 
+
+### [اضغط هنا](https://app.code.kw/برمجة-تطبيقات-الايفون-مع-سويفت-Swift-KFAS/ios-تطبيقات-ذات-واجهات-متعددة-KFAS/) للدرس
 
 
 آخر موعد لرفع الكود\
-23/6/2020
+6/7/2020
 
 
 

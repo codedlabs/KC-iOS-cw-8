@@ -1,103 +1,63 @@
-# OnTapGesture
+
+ <h1 align="right">التمرين 1 </h1>
 
 <p dir="rtl">
-فيديوهات الدرس</p>
-
-
-
-* رابط الفيديو [OnTapGesture](https://www.youtube.com/watch?v=qgtG5zbufy4) 
-
-
-
----
-
-
-# <p dir="rtl">
-شرح الدرس </p>
-
-
-
-# <p dir="rtl">
-طريقة تغيير متغير variable باستخدام OnTapGesture</p>
-
-
-
-
-* نستخدم متغير من نوع  State  لمعرفة إذا تغيرت قيمة المتغير مثل المثال التالي
-
-```
-@State var color = "green"
-```
-
-
-* نقوم بإضافة جملة في Text لرؤيتها
-
-```
-VStack {
-         Text("My favourite color is " , color)
-             .padding() }
-```
-
-
-
-
-
- 
-* نقوم بإنشاء Text جديد واضافة OnTapGesture لتغير اللون الاخضر الى اللون الازرق 
-
-```
-Text("Blue")
-     .padding()
-     .foregroundColor(.blue)
-     .onTapGesture {
-          color = "Blue"
-     }
- 
-```
-
-
-
----
-
-<p dir="rtl">
-تمرين
-
-<p dir="rtl">
-في هذا التمرين سنقوم ببناء تطبيق الهاتف </p>
-
-
-
-
-1.  قم بإنشاء مشروع جديد باسم Best Track
-2. قم بإدراج 4 مسارات في الشاشة  على الشكل التالي
-
-
-
-<p dir="rtl">
-<img src="CW-Example.png" width="200" alt="alt_text" title="image_tooltip">
+<img src="/cw1.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
+<p dir="rtl">
+1. قم بفتح ملف Xcode 
+
+<p dir="rtl">
+2. قم بانشاء تطبيق جديد باسم myDiary
+
+<p dir="rtl">
+3. قم بعمل مصفوفة من الألوان 
+
+<p dir="rtl">
+4. قم بعمل textField
+
+<p dir="rtl">
+5. قم بعمل NavigationView , وقم بالخطوات اللازمة للانتقال الى صفحة جديدة لتنقل بها اللون الذي اخترته عند الضغط عليه ليكون خلفية في الصفحة الثانية ،وايضا تنقل النص الموجود في خانة textField . كما هو موضح في الصورة.
 
 
 <p dir="rtl">
-    
-3. عند الضغط على اي مسار يقوم بإظهارها ايقونه المسار  مثال: 
-
-
-
-
+<strong>hint✨</strong>: مصفوفة الألوان تكون بهذه الطريقة</p>
 
 <p dir="rtl">
-<img src="/CW-Example.gif" width="200" alt="alt_text" title="image_tooltip">
+let chooseColor = [Color.black , Color.gray , Color.blue , Color.green]
+
+
+
+ <h1 align="right">التمرين 2 </h1>
+
+<p dir="rtl">
+<img src="/cw2-1.gif" width="200" alt="alt_text" title="image_tooltip">
+</p>
+
+<p dir="rtl">
+في هذا التمرين سنقوم ببناء تطبيق اختيار تخصصك.</p>
+
+<p dir="rtl">
+1. قم بإنشاء تطبيق جديد في XCode.
+
+<p dir="rtl">
+2. قم بجعل زر اختر تخصصك عند الضغط عليه ، فإنه تظهر القائمة بالاسفل ، وتتحول صورة الجمع + الى صورة الطرح - .
+
+<p dir="rtl">
+3. قم بعمل انيميشن عند ظهور واختفاء التخصصات ، كما بالصورة .
+
+<p dir="rtl">
+4. أيضاً عند الضغط على اسم التخصص فإنه سيظهر اسم التخصص بالأسفل.
+
+<br>
+
+<p dir="rtl">
+<img src="/cw2-2.gif" width="200" alt="alt_text" title="image_tooltip">
 </p>
 
 
 <p dir="rtl">
-<strong>بونص: قم بتغير خلفية النصوص إلى الاوان التالية</strong></p>
+<strong>بونص✨</strong>: عند الضغط على اسم التخصص فإن لون الخلفية يتغير.</p>
 
-
-
-<p dir="rtl">
-<img src="/Bonus.png" width="200" alt="alt_text" title="image_tooltip">
-</p>
 

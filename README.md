@@ -26,38 +26,3 @@
 
 <p dir="rtl">
 let chooseColor = [Color.black , Color.gray , Color.blue , Color.green]
-
-
-
- <h1 align="right">التمرين 2 </h1>
-
-<p dir="rtl">
-<img src="/cw2-1.gif" width="200" alt="alt_text" title="image_tooltip">
-</p>
-
-<p dir="rtl">
-في هذا التمرين سنقوم ببناء تطبيق اختيار تخصصك.</p>
-
-<p dir="rtl">
-1. قم بإنشاء تطبيق جديد في XCode.
-
-<p dir="rtl">
-2. قم بجعل زر اختر تخصصك عند الضغط عليه ، فإنه تظهر القائمة بالاسفل ، وتتحول صورة الجمع + الى صورة الطرح - .
-
-<p dir="rtl">
-3. قم بعمل انيميشن عند ظهور واختفاء التخصصات ، كما بالصورة .
-
-<p dir="rtl">
-4. أيضاً عند الضغط على اسم التخصص فإنه سيظهر اسم التخصص بالأسفل.
-
-<br>
-
-<p dir="rtl">
-<img src="/cw2-2.gif" width="200" alt="alt_text" title="image_tooltip">
-</p>
-
-
-<p dir="rtl">
-<strong>بونص✨</strong>: عند الضغط على اسم التخصص فإن لون الخلفية يتغير.</p>
-
-
